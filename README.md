@@ -163,6 +163,7 @@ netflix_df['year_added'] = netflix_df['date_added'].dt.year
 add_trend = netflix_df.groupby('year_added')['show_id'].count()
 
 print(add_trend.tail())
+
 **Power BI Dashboard**
 Dashboard Structure
 
@@ -189,6 +190,7 @@ KPI-driven leadership signals
 Visual-first, action-oriented insights
 
 Focus on trade-offs between scale, engagement, and sustainability
+
 **How to Run the Project**
 
 Python Analysis

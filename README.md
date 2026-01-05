@@ -165,6 +165,7 @@ add_trend = netflix_df.groupby('year_added')['show_id'].count()
 print(add_trend.tail())
 
 **Power BI Dashboard**
+
 Dashboard Structure
 
 Page 0 – Executive Overview

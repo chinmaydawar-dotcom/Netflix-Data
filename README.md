@@ -17,7 +17,7 @@ Analyze audience maturity concentration
 Translate KPIs into actionable leadership insights
 
 Build an interactive, decision-support dashboard
-Tools Used
+**Tools Used**
 🔹 Julius AI
 
 Used for AI-assisted exploratory data analysis
@@ -163,7 +163,7 @@ netflix_df['year_added'] = netflix_df['date_added'].dt.year
 add_trend = netflix_df.groupby('year_added')['show_id'].count()
 
 print(add_trend.tail())
-Power BI Dashboard
+**Power BI Dashboard**
 Dashboard Structure
 
 Page 0 – Executive Overview
@@ -189,7 +189,7 @@ KPI-driven leadership signals
 Visual-first, action-oriented insights
 
 Focus on trade-offs between scale, engagement, and sustainability
-How to Run the Project
+**How to Run the Project**
 
 Python Analysis
 
@@ -205,7 +205,7 @@ Use Page 0 slicers to control the entire dashboard
 
 Navigate through analytical and insight pages
 
-Key Takeaway
+**Key Takeaway**
 
 This project transforms raw Netflix content data into a decision-support system, enabling leadership to understand where content investment creates the most strategic leverage.
 
